@@ -1,0 +1,92 @@
+.order-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-container .content{
+  width: 100%;  
+  padding: 96px ;
+  background: #36CCF2;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.order-container .content .table{
+  width: 100%;   
+}
+
+.order-container .content form input{
+  width: 70%;
+  height: 60px;
+  color: #333;
+  border: 1 px solid #dcdce6;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 24px;
+  resize: vertical;
+  margin-top: 8px;
+}
+
+.order-container .content form textarea{
+  margin-top: 10px;
+  width: 70%;
+  height: 110px
+}
+
+.button_confirm {
+  width: 70%;
+  height: 60px;
+  background: #5cb85c;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button_confirm:hover {
+  filter: brightness(90%);
+}
+
+.button_add {
+  width: 70%;
+  height: 60px;
+  background: #0699BE;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button_add:hover {
+  filter: brightness(90%);
+}
+
+.order-container .content form button{
+  height: 60px;
+  margin-top: 8px;
+  font-weight: 700;
+}
